@@ -1,7 +1,44 @@
+:root {
+  --color-text: hsl(0deg, 0%, 100%);
+  --color-background: hsl(212, 32%, 8%);
+  --color-background-secondary: hsl(213, 32%, 15%);
+  --color-primary: hsl(333deg, 100%, 52%);
+  --color-secondary: hsl(245, 100%, 60%);
+  --color-tertiary: hsl(53deg, 100%, 50%);
+
+  --color-success: hsl(160deg, 100%, 40%);
+  --color-failure: hsl(340deg, 95%, 60%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: black;
-  margin: 0;
-  padding: 0;
+  background: var(--color-background);
+  color: var(--color-text);
+}
+
+#main-container nav {
+  background-color: var(--color-background);
+  margin-right: 2em;
+}
+
+#main-container .navbar-dark .navbar-brand {
+  color: var(--color-text);
+  background-color: var(--color-text);
+  padding: 0.2rem 0.4rem 0.4rem 0.5rem;
+}
+
+#main-container .navbar-dark .nav-link {
+  margin-left: 2.6rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--color-primary);
+}
+
+#main-container .navbar-dark .nav-link:hover {
+  color: var(--color-text);
 }
 
 .section1 {
