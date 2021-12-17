@@ -21,7 +21,7 @@ body {
 
 #main-container nav {
   background-color: var(--color-background);
-  margin-right: 2em;
+  margin-right: 2rem;
 }
 
 #main-container .navbar-dark .navbar-brand {
